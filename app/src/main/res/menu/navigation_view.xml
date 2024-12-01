@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Buyurtmalar"
+        android:id="@+id/m_buyurtmalar"/>
+    <item
+        android:title="Sotuvchilar"
+        android:id="@+id/m_sotuvchi"/>
+    <item
+        android:title="Xaridorlar"
+        android:id="@+id/m_xaridor"/>
+
+</menu>

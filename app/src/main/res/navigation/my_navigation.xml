@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/m_buyurtmalar">
+
+    <fragment
+        android:id="@+id/m_buyurtmalar"
+        android:name="com.example.sqlite_reference.fragments.BuyurtmaFragment"
+        android:label="fragment_buyurtma"
+        tools:layout="@layout/fragment_buyurtma" />
+    <fragment
+        android:id="@+id/m_sotuvchi"
+        android:name="com.example.sqlite_reference.fragments.SotuvchiFragment"
+        android:label="fragment_sotuvchi"
+        tools:layout="@layout/fragment_sotuvchi" />
+    <fragment
+        android:id="@+id/m_xaridor"
+        android:name="com.example.sqlite_reference.fragments.XaridorFragment"
+        android:label="fragment_xaridor"
+        tools:layout="@layout/fragment_xaridor" />
+</navigation>
